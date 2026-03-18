@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>まお先生特別鑑定</title>
+
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      background: #fff;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    video {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: block;
+      width: 80%;
+      max-width: 300px;
+      margin: 10px auto;
+      padding: 15px;
+      background: #ff4d6d;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    .btn.download {
+      background: #333;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>まお先生特別鑑定</h1>
+
+  <p>
+    お客様のみの専用<br>
+    動画鑑定結果を見れる！<br>
+    さらに、ダウンロードもOK！
+  </p>
+
+  <!-- 動画 -->
+  <video controls>
+    <source src="video.mp4" type="video/mp4">
+  </video>
+
+  <!-- 閲覧ボタン（同じページなので実質不要だがUX的に） -->
+  <a href="#video" class="btn">▼閲覧はこちら</a>
+
+  <!-- ダウンロード -->
+  <a href="video.mp4" download class="btn download">
+    ▼動画の保存はこちら<br>保存する
+  </a>
+
+</body>
+</html>
